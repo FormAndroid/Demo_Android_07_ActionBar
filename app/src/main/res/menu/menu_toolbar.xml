@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Le menu d'option de l'application, disponible dans la toobar -->
+
+    <!-- Menu présent sur la toolbar avec un icone -->
+    <item
+        android:id="@+id/toolbar_action_1"
+        android:icon="@drawable/ic_action_name"
+        android:title="Demo"
+        app:showAsAction="ifRoom"
+        />
+
+    <!-- Menu présent dans la dropdown -->
+    <item
+        android:id="@+id/toolbar_action_2"
+        android:title="Test"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/toolbar_action_3"
+        android:title="Hello"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/toolbar_action_4"
+        android:title="World"
+        app:showAsAction="never"
+        />
+
+</menu>
